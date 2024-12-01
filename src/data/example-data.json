@@ -1,0 +1,143 @@
+{
+  "header": {
+    "logo": "/src/assets/logo-facte.svg",
+    "navigation": ["Présentation", "Fonctions", "Activité", "Timeline"]
+  },
+  "presentation": {
+    "title": "Agencce de développement des Territoires",
+    "subtitle": "Réseau d'associations étudiantes",
+    "keyMetrics": [
+      {
+        "icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "Date de création",
+        "value": "1996",
+        "color": "#2196F3",
+        "bgColor": "#E3F2FD"
+      },
+      {
+        "icon": "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+        "title": "Membres",
+        "value": "1000+ associations étudiantes",
+        "color": "#0EA5E9",
+        "bgColor": "#F0F9FF"
+      },
+      {
+        "icon": "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z",
+        "title": "Salariés",
+        "value": "15 collaborateurs",
+        "color": "#10B981",
+        "bgColor": "#ECFDF5"
+      },
+      {
+        "icon": "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+        "title": "Budget annuel",
+        "value": "1.2M€",
+        "color": "#F59E0B",
+        "bgColor": "#FEF3C7"
+      }
+    ],
+    "mission": {
+      "title": "Raison d'être",
+      "description": "Animafac est un réseau d'associations étudiantes qui promeut l'engagement associatif et accompagne les étudiants dans la réalisation de leurs projets. Notre mission est de contribuer à la transformation sociale et environnementale en valorisant et soutenant les initiatives étudiantes."
+    },
+    "environmentalActions": {
+      "title": "Leviers d'action environnementale",
+      "actions": [
+        "Sensibilisation et formation des étudiants aux enjeux environnementaux",
+        "Accompagnement de projets étudiants à impact environnemental",
+        "Plaidoyer pour l'intégration des enjeux environnementaux dans l'enseignement supérieur",
+        "Mise en réseau des associations étudiantes engagées pour l'environnement"
+      ]
+    }
+  },
+  "functions": {
+    "title": "Fonctions actuelles",
+    "subtitle": "Notre organisation et nos domaines d'expertise",
+    "wheel": {
+      "svgPath": "/src/assets/FunctionWheel.svg",
+      "sections": [
+        {
+          "title": "Aligner",
+          "color": "#DC2626",
+          "items": [
+            {
+              "text": "Influencer et Plaidoyer",
+              "percentage": 25
+            },
+            {
+              "text": "Informer et outiller",
+              "percentage": 20
+            }
+          ]
+        },
+        {
+          "title": "Animer",
+          "color": "#F97316",
+          "items": [
+            {
+              "text": "Mettre en réseau et Animer",
+              "percentage": 15
+            },
+            {
+              "text": "Accompagner chacun",
+              "percentage": 15
+            }
+          ]
+        },
+        {
+          "title": "Orchestrer",
+          "color": "#65A30D",
+          "items": [
+            {
+              "text": "Piloter",
+              "percentage": 15
+            },
+            {
+              "text": "Fonctions support",
+              "percentage": 10
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "activities": {
+    "title": "Activité",
+    "subtitle": "Notre impact et nos réalisations",
+    "description": "Notre réseau s'engage activement dans divers domaines pour soutenir et développer la vie associative étudiante. Voici une vue d'ensemble de nos principales activités et de leur impact sur l'écosystème étudiant.",
+    "visualization": {
+      "svgPath": "/src/assets/Activités.svg"
+    }
+  },
+  "timeline": {
+    "title": "Timeline",
+    "subtitle": "Notre histoire et notre évolution",
+    "description": "Notre histoire est marquée par une évolution constante et des adaptations aux besoins changeants du monde associatif étudiant. Découvrez les moments clés qui ont façonné notre organisation et notre impact au fil des années.",
+    "visualization": {
+      "svgPath": "/src/assets/Timeline.svg"
+    }
+  },
+  "theme": {
+    "colors": {
+      "primary": "#35B8BE",
+      "secondary": "#1E1E46",
+      "text": {
+        "primary": "#1E1E46",
+        "secondary": "#6B7280"
+      },
+      "background": {
+        "primary": "#F8FAFB",
+        "secondary": "#F3F4F6"
+      },
+      "functions": {
+        "aligner": "#DC2626",
+        "animer": "#F97316",
+        "orchestrer": "#65A30D"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "py-20",
+      "contentMaxWidth": "max-w-4xl"
+    }
+  }
+}

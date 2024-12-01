@@ -1,0 +1,90 @@
+{
+  "header": {
+    "logo": "string (path to logo SVG)",
+    "navigation": ["Présentation", "Fonctions", "Activité", "Timeline"]
+  },
+  "presentation": {
+    "title": "string",
+    "subtitle": "string (ex: Réseau d'associations étudiantes)",
+    "keyMetrics": [
+      {
+        "icon": "string (SVG path)",
+        "title": "string (ex: Date de création)",
+        "value": "string (ex: 1996)",
+        "color": "string (hex color)",
+        "bgColor": "string (hex color)"
+      }
+    ],
+    "mission": {
+      "title": "string (ex: Raison d'être)",
+      "description": "string (long text)"
+    },
+    "environmentalActions": {
+      "title": "string (ex: Leviers d'action environnementale)",
+      "actions": [
+        "string (action description)",
+        "string (action description)",
+        "string (action description)",
+        "string (action description)"
+      ]
+    }
+  },
+  "functions": {
+    "title": "string (ex: Fonctions actuelles)",
+    "subtitle": "string (ex: Notre organisation et nos domaines d'expertise)",
+    "wheel": {
+      "svgPath": "string (path to SVG)",
+      "sections": [
+        {
+          "title": "string (ex: Aligner)",
+          "color": "string (hex color)",
+          "items": [
+            {
+              "text": "string (ex: Influencer et Plaidoyer)",
+              "percentage": "number (ex: 25)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "activities": {
+    "title": "string (ex: Activité)",
+    "subtitle": "string (ex: Notre impact et nos réalisations)",
+    "description": "string (long text)",
+    "visualization": {
+      "svgPath": "string (path to SVG)"
+    }
+  },
+  "timeline": {
+    "title": "string (ex: Timeline)",
+    "subtitle": "string (ex: Notre histoire et notre évolution)",
+    "description": "string (long text)",
+    "visualization": {
+      "svgPath": "string (path to SVG)"
+    }
+  },
+  "theme": {
+    "colors": {
+      "primary": "string (hex color)",
+      "secondary": "string (hex color)",
+      "text": {
+        "primary": "string (hex color)",
+        "secondary": "string (hex color)"
+      },
+      "background": {
+        "primary": "string (hex color)",
+        "secondary": "string (hex color)"
+      },
+      "functions": {
+        "aligner": "string (hex color)",
+        "animer": "string (hex color)",
+        "orchestrer": "string (hex color)"
+      }
+    },
+    "spacing": {
+      "sectionPadding": "string (ex: py-20)",
+      "contentMaxWidth": "string (ex: max-w-4xl)"
+    }
+  }
+}
